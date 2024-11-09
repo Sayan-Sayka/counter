@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Counter</title>
+        <style>
+            body{
+                background-color:orange;
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                height:90vh;
+            }
+            .counter{
+                width:600px;
+                background-color:#fff;
+                padding:20px;
+            }
+            p{
+                font-size: 50px;
+                text-align:center;
+            }
+            .count{
+                font-size:70px;
+            }
+            button{
+                font-size:30px;
+                padding:10px;
+                padding-right:10px;
+                padding-left:10px;
+                margin-left:38px;
+                margin-bottom:10px;
+                cursor:pointer;
+                border-radius:5px;
+            }
+            .substract{
+                background-color:crimson;
+                color:#fff;
+            }
+            .addition{
+                background-color:green;
+                color:#fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="counter">
+        <p>Counter</p>
+        <p class="count">0</p>
+        <button onclick="decrement()" class="substract">Decrement</button>
+        <button onclick="reset()" class="reset">Reset</button>
+        <button onclick="increment()" class="addition">Increment</button>
+        <script src="app1.js"></script>
+    </div>
+    </body>
+</html>
+
